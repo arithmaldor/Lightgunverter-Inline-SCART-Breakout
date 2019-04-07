@@ -1,0 +1,155 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:SCART-F X1
+U 1 1 5CA94CC4
+P 3550 3850
+F 0 "X1" H 3550 5270 50  0000 C CNN
+F 1 "SCART-F" H 3550 5179 50  0000 C CNN
+F 2 "SCART to DVI-A Compact:SCART-F" H 3550 3900 50  0001 C CNN
+F 3 " ~" H 3550 3900 50  0001 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:SCART-F X2
+U 1 1 5CA96A5F
+P 5900 3850
+F 0 "X2" H 5900 5270 50  0000 C CNN
+F 1 "SCART-F" H 5900 5179 50  0000 C CNN
+F 2 "Lightgunverter SCART Breakout:MALE_SCART" H 5900 3900 50  0001 C CNN
+F 3 " ~" H 5900 3900 50  0001 C CNN
+	1    5900 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 2950 2    50   Input ~ 0
+SYNC
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5CA988F0
+P 4500 2250
+F 0 "J1" H 4600 2225 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 2134 50  0000 L CNN
+F 2 "digikey-footprints:LCSC_RCA_Jack" H 4500 2250 50  0001 C CNN
+F 3 " ~" H 4500 2250 50  0001 C CNN
+	1    4500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5CA98DC7
+P 4850 2250
+F 0 "J2" H 4950 2225 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4950 2134 50  0000 L CNN
+F 2 "digikey-footprints:LCSC_RCA_Jack" H 4850 2250 50  0001 C CNN
+F 3 " ~" H 4850 2250 50  0001 C CNN
+	1    4850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5CA992D6
+P 5200 2250
+F 0 "J3" H 5300 2225 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5300 2134 50  0000 L CNN
+F 2 "digikey-footprints:LCSC_RCA_Jack" H 5200 2250 50  0001 C CNN
+F 3 " ~" H 5200 2250 50  0001 C CNN
+	1    5200 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 2450 3    50   Input ~ 0
+GND
+Text GLabel 4500 2450 3    50   Input ~ 0
+GND
+Text GLabel 5200 2450 3    50   Input ~ 0
+GND
+Text GLabel 4300 2250 0    50   Input ~ 0
+SYNC
+Text GLabel 4650 2250 1    50   Input ~ 0
+GREEN_IN
+Text GLabel 5000 2250 1    50   Input ~ 0
+GREEN_OUT
+Text GLabel 2950 2850 0    50   Input ~ 0
+GND
+Text GLabel 2950 3250 0    50   Input ~ 0
+GND
+Text GLabel 2950 3650 0    50   Input ~ 0
+GND
+Text GLabel 2950 4050 0    50   Input ~ 0
+GND
+Text GLabel 2950 4450 0    50   Input ~ 0
+GND
+Text GLabel 4150 3150 2    50   Input ~ 0
+GND
+Text GLabel 4150 3350 2    50   Input ~ 0
+BLANKING
+Text GLabel 4150 4150 2    50   Input ~ 0
+SWITCH
+NoConn ~ 4150 3550
+NoConn ~ 4150 3750
+NoConn ~ 4150 3950
+NoConn ~ 2950 4650
+NoConn ~ 2950 4850
+Text GLabel 6500 3350 2    50   Input ~ 0
+BLANKING
+Text GLabel 6500 4150 2    50   Input ~ 0
+SWITCH
+NoConn ~ 2950 3050
+NoConn ~ 5300 3050
+NoConn ~ 6500 3550
+NoConn ~ 6500 3750
+NoConn ~ 6500 3950
+NoConn ~ 5300 4650
+NoConn ~ 5300 4850
+Text GLabel 2950 3450 0    50   Input ~ 0
+RED
+Text GLabel 2950 4250 0    50   Input ~ 0
+BLUE
+Text GLabel 2950 3850 0    50   Input ~ 0
+GREEN_IN
+Text GLabel 5300 3850 0    50   Input ~ 0
+GREEN_OUT
+Text GLabel 5300 3450 0    50   Input ~ 0
+RED
+Text GLabel 5300 4250 0    50   Input ~ 0
+BLUE
+Text GLabel 5300 2850 0    50   Input ~ 0
+GND
+Text GLabel 5300 3250 0    50   Input ~ 0
+GND
+Text GLabel 6500 2950 2    50   Input ~ 0
+SYNC
+Text GLabel 6500 3150 2    50   Input ~ 0
+GND
+Text GLabel 6500 4550 2    50   Input ~ 0
+GND
+Text GLabel 4150 4550 2    50   Input ~ 0
+GND
+Text GLabel 4150 4350 2    50   Input ~ 0
+LEFT
+Text GLabel 4150 4750 2    50   Input ~ 0
+RIGHT
+Text GLabel 6500 4350 2    50   Input ~ 0
+LEFT
+Text GLabel 6500 4750 2    50   Input ~ 0
+RIGHT
+Text GLabel 5300 3650 0    50   Input ~ 0
+GND
+Text GLabel 5300 4050 0    50   Input ~ 0
+GND
+Text GLabel 5300 4450 0    50   Input ~ 0
+GND
+$EndSCHEMATC
